@@ -1,0 +1,21 @@
+/* Write your code here. */
+.thumbnail-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.img-btn{
+    border:0;
+    background: none;
+}
+.active-image{
+    height:40px;
+    width:40px;
+}
+.non-active-image{
+    height:40px;
+    width:40px;
+    opacity: 0.5;
+}
